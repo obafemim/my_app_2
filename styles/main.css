@@ -183,6 +183,12 @@ p {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .review .text {
+    padding: 0 0;
+  }
+}
+
 .feature {
   margin-top: 100px;
 }
@@ -219,6 +225,12 @@ p {
   .feature .text {
     padding: 40px 0 70px 0;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .feature .text {
+    padding: 0 0;
   }
 }
 
@@ -297,6 +309,12 @@ p {
   .cta-inner-2 {
     width: unset;
     padding: 50px 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .cta-inner-2 {
+    padding: 50px 40px;
   }
 }
 
@@ -436,6 +454,22 @@ hr {
   .cta-2-inner-2 {
     width: unset;
     padding: 50px 50px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .cta-2-inner-2 {
+    padding: 50px 60px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .cta-2-inner-2 {
+    padding: 50px 40px;
+  }
+
+  .cta-2-inner-2 h2 {
+    font-size: 22px;
   }
 }
 
